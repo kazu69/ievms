@@ -166,7 +166,7 @@ install_unar() {
     local url="http://unarchiver.c3.cx/downloads/unar1.10.1.zip"
     local archive=`basename "${url}"`
 
-    download "unar" "${url}" "${archive}" "d548661e4b6c33512074df81e39ed874"
+    download "unar" "${url}" "${archive}" "f6efe34cb1b4cedd1a1b1507a2c1613e"
 
     unzip "${archive}" || fail "Failed to extract ${ievms_home}/${archive} to ${ievms_home}/, unzip command returned error code $?"
 
